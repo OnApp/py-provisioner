@@ -2,3 +2,4 @@
 .DS_Store
 .vagrant
 venv
+site_settings.py
