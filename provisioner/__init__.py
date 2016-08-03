@@ -3,6 +3,11 @@ import json
 import os
 import requests
 
+# Python 2/3 fix
+try:
+    from urllib.parse import urlparse
+except ImportError:
+    from urlparse import urlparse
 
 EXIT_STATUS = ['Aborted', 'Done', 'Error', 'Failed']
 SAMPLE_NODE_USERNAME = 'vagrant'
