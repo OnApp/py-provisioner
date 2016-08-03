@@ -3,3 +3,6 @@
 .vagrant
 venv
 site_settings.py
+build/
+dist/
+*.egg-info/
