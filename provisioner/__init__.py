@@ -60,7 +60,7 @@ def get_provisioner_url(url='localhost'):
     return url
 
 
-def create_task(
+def create_job(
     ip=None,
     username=None,
     password=None,
